@@ -1,0 +1,16 @@
+{
+  "name": "blaze-qa",
+  "owner": {
+    "name": "blazeteam QA",
+    "email": "arshak.markarian@blaze.ge"
+  },
+  "plugins": [
+    {
+      "name": "blaze-qa",
+      "source": "./plugins/blaze-qa",
+      "description": "blazeteam Manual QA toolkit — Qase.io ტესტ-ქეისების გენერატორი და Jira Testing Checklist (Eschool და კომპანიის სხვა პროდუქტები).",
+      "category": "testing",
+      "keywords": ["qa", "testing", "qase", "jira", "eschool", "blazeteam"]
+    }
+  ]
+}
