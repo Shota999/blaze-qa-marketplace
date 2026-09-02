@@ -1,7 +1,7 @@
 {
   "name": "blaze-qa",
   "displayName": "blazeteam QA Toolkit",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "blazeteam Manual QA toolkit — Qase.io ტესტ-ქეისების გენერატორი და Jira Testing Checklist. მუშაობს Eschool-ზე და კომპანიის სხვა პროდუქტებზე (პროდუქტი აიღება პროექტის CLAUDE.md-იდან).",
   "author": {
     "name": "blazeteam QA",

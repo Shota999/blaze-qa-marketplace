@@ -9,6 +9,7 @@ blazeteam-ის Manual QA ინსტრუმენტები Claude Code-�
 |---|---|---|
 | `blaze-qa-test-case-writer` | skill | Qase.io JSON ტესტ-ქეისების გენერაცია Jira სთორიდან |
 | `blaze-qa-testing-checklist` | skill | Jira Testing Checklist-ის გენერაცია |
+| `eschool-testcase-steps-merge` | skill | .xlsx workbook-ის "classic" და "Test Cases" sheet-ების გაერთიანება (Steps/Results სვეტები) |
 | `/qa-test-planner <KEY>` | command | ტესტ-ქეისების დაწერის ბრძანება |
 | `/qa-checklist <KEY>` | command | Testing Checklist-ის ბრძანება |
 
@@ -67,7 +68,8 @@ blaze-qa-marketplace/
 │       ├── .claude-plugin/plugin.json
 │       ├── commands/            (qa-test-planner, qa-checklist)
 │       └── skills/
-│           ├── blaze-qa-test-case-writer/  (SKILL.md + rules/)
-│           └── blaze-qa-testing-checklist/ (SKILL.md)
+│           ├── blaze-qa-test-case-writer/   (SKILL.md + rules/)
+│           ├── blaze-qa-testing-checklist/  (SKILL.md)
+│           └── eschool-testcase-steps-merge/ (SKILL.md + scripts/)
 └── README.md
 ```
