@@ -50,6 +50,12 @@ lines with newlines, numbered by `Position`:
 columns are left-aligned, top-aligned, wrap-text, with widths ~46 (Steps) and
 ~60 (Results) to match the reference `Example` sheet.
 
+**No em/en dashes.** Never use an em dash (—) or en dash (–) anywhere in the
+`Steps` or `Results` text (or any other text you write into these workbooks). If
+the source `classic` cell already contains one, normalize it to a plain hyphen
+(`-`), or to a comma/colon where that reads better. This applies to every
+language, Georgian included.
+
 ## Environment note (important on this machine)
 
 There is **no working Python** here (only the Microsoft Store stub), so the
@@ -112,3 +118,5 @@ in Excel (`LOCKED`) instead of failing.
   (unless it legitimately had no `classic` steps).
 - The script only touches `Test Cases` (and, with `--cleanup`, deletes helper
   sheets). It never modifies `classic` data or the `Example` reference.
+- **No em/en dashes in any output.** Do not introduce `—` or `–` in the merged
+  content; keep hyphens plain (`-`). Normalize any that come in from `classic`.
